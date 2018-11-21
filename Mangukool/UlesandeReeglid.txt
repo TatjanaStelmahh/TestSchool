@@ -1,0 +1,50 @@
+﻿Mõtleme välja sellise rakenduse
+
+kuus klassi - Õpetajad, Õpilased, Õppeained, Klassid, Lapsevanemad, Hinded
+(pange ise sobiv nimi igale)
+(NB! Mõtleme koos läbi, milliseid klasse oleks vaia, kas ja milliseid tuletada
+ja mis piirnagud või varandid oleks olemas)
+
+Koolis on mitu klassi (igals klassil on miski nimi - 1B, 2A jne)
+iga klassi
+
+Lapsevanematel on nimi (ja isikukood)
+
+Õpilastel on miski nimi ja kood (näiteks isikukood)
+Õpilasel on 1-2 lapsevanemat
+Õpilased õpivad mingis klassis
+
+Õppeainel on mingi nimetus (ja kood)
+Igas klassis õpetatakse mingeid aineid (matemaatika, eesti keel, ...)
+Igal klassil on klassijuhataja
+
+Õpetajatel on nimi (ja näiteks isikukood)
+Õpetaja õpetab mingit (lihtsuse mõttes ühte) ainet (näiteks matemaatika)
+
+Õpetajad panevad õpilastele hindeid mingis aines
+Hinne (1-nõrk, 2-rahuldav, 3-hea, 4-vägahea, 5-suurepärane)
+
+Tehke omale algandmeteks mingi kogus tekstifaile
+Õpilased (kood, nimi klass)
+Õpetajad (kood, nimi, õppeaine)
+Klassid ja ained (kood, nimetus), kus mida õpetatakse
+Lapsevanemad (kood, nimi, kellevanem)
+Hinded (õpilane, õppeaine, hinne)
+
+seejärel teeme rakenduse, kus 
+* küsitakse inimese kood (mängult logime sisse)
+* kui on õpilane saab vaadata oma klassi nimekirja, õppeaineid ja oma hindeid
+* kui on õpetaja, saab vaadata nende klasside nimekirju, kus ta õpetab, oma aine hindeid
+* kui on lapsevanem saab vaadata oma laste hindeid, oma laste klassikaaslasi ja nende vanemaid
+* kui on klassijuhataja, saab vaadata oma klassi õpilasi, nende hindeid ja nende vanemaid
+
+1. küsimus - kes sa oled (kasutaja sisestagu IK)
+2. Tere Kasutaja (nimi leitud isiku koodi alusel)
+	Sind ma ei tunne (kui isikukoodi ei ole)
+3. Vastavalt kasutaja rollile (õpilane, õpetaja, klassijuhata, lapsevanem)
+	Kuvatakse valikutega küsimus, mida tahad
+	Switshiga leiad valikule vastava tegevuse - näiteks prindid õpilaste nimekirja
+
+Kuidas selgitada inimese roll
+Kas teed inimesele funktsioonid (soovitatav)
+	või iga kord uurid inimest (tüütu)

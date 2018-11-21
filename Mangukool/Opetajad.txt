@@ -1,0 +1,4 @@
+﻿Isikukood, Nimi, Ainemidaopetab
+41109090000, Minerva, Fuusika
+32208080000, Wulfrick, Keemia
+43303030000, Dolores, Ajalugu

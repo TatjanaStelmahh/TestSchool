@@ -1,0 +1,6 @@
+﻿Isikukood, Nimi, Klass
+38807070000, Algenon, 1A
+48806060000, Betsy, 2A
+38809090000, Jake, 1A
+38807090000, Fin, 1A
+38806080000, Gene, 2A
